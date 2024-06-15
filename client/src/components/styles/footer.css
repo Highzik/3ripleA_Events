@@ -1,0 +1,22 @@
+.footer {
+  background: #E1E9EC;
+  color: #2D356C;
+}
+
+.footer ul {
+  display: flex;
+}
+
+.footer ul li {
+  list-style: none;
+  margin-right: 13px;
+  justify-content: start;
+}
+
+.footer ul li a {
+  color: #2D356C;
+}
+
+.lgb {
+  letter-spacing: 2px;
+}

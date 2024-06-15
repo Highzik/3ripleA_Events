@@ -1,0 +1,64 @@
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.nav-link {
+  color: #666777;
+  font-weight: 500;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #000;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background: #009970;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::before,
+.nav-link.active {
+  width: 100%;
+  visibility: visible;
+}
+
+.navbar {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.brand-logo {
+  width: 20%;
+}
+
+.navbar {
+  z-index: 100000;
+  background: #E1E9EC;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  /* backdrop-filter: blur(15px); */
+}
+
+.events {
+  background: #009970;
+  color: #fff;
+  padding: 6px 8px;
+  border-radius: 4px;
+}
