@@ -7,6 +7,7 @@ import Footer from "./components/Footer"
 import Home from "./pages/Home"
 import Services from "./pages/Services"
 import Approach from "./pages/Approach"
+import Faq from "./pages/Faq"
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/approach" element={<Approach />} />
+          <Route path="/faq" element={<Faq />} />
         </Routes>
       </div>
       <Footer />

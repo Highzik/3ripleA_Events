@@ -30,7 +30,7 @@ export default function Header() {
                   <NavLink to="/services" className="nav-link mx-lg-2 fw-bold">SERVICES</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to="/gallery" className="nav-link mx-lg-2 fw-bold">GALLERY</NavLink>
+                  <NavLink to="/faq" className="nav-link mx-lg-2 fw-bold">FAQ</NavLink>
                 </li>
                 <li className="nav-item">
                   <NavLink to="/reviews" className="nav-link mx-lg-2 fw-bold">REVIEWS</NavLink>
